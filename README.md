@@ -78,4 +78,5 @@ EOF
 file hello-sparc hello-ppc
 ```
 hello-sparc:    ELF 32-bit MSB executable SPARC Version 1, statically linked, not stripped
+
 hello-ppc:      ELF 32-bit LSB executable PowerPC Version 1, statically linked, not stripped
