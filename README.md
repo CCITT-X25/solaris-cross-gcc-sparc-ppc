@@ -83,7 +83,7 @@ hello-sparc:    ELF 32-bit MSB executable SPARC Version 1, statically linked, no
 
 hello-ppc:      ELF 32-bit LSB executable PowerPC Version 1, statically linked, not stripped
 
-# Building a native compiler for Solaris SPARC / PowerPC executables on an i386 host
+# Building a native compiler for Solaris SPARC / PowerPC executables on an i386 build host
 
 ## Prerequisites
 Cross compiler created as outlined above. Put the path to the cross compiler in your shell path.
