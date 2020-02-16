@@ -80,6 +80,7 @@ EOF
 file hello-sparc hello-ppc
 ```
 hello-sparc:    ELF 32-bit MSB executable SPARC Version 1, statically linked, not stripped
+
 hello-ppc:      ELF 32-bit LSB executable PowerPC Version 1, statically linked, not stripped
 
 # Building a native compiler for Solaris SPARC / PowerPC executables on an i386 host
@@ -149,10 +150,10 @@ gmake distclean
 ```
 
 ## Installing on the host computer
-Copy the files to /opt/ from the build host
+Copy the files to /opt/ from the build host.
 Install the packets SUNWarc, SUNWhea, SUNWlibm and SUNWtoo from the Solaris distribution CD.
 
-Copy values*.o to the compiler director:
+Copy values*.o to the compiler directory:
 ```
 cp /usr/ccs/lib/values*.o /opt/sparc-gcc/sparc-sun-solaris2/lib/
 ```
